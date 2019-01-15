@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm", "WebForm\WebForm.csproj", "{4E93B5B7-6218-4074-B5B2-80D7832252A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A96163A4-FDDC-49DA-8058-89E16577FAB0}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E93B5B7-6218-4074-B5B2-80D7832252A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E93B5B7-6218-4074-B5B2-80D7832252A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E93B5B7-6218-4074-B5B2-80D7832252A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E93B5B7-6218-4074-B5B2-80D7832252A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
