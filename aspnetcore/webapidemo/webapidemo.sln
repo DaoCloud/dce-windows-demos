@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapidemo", "webapidemo\webapidemo.csproj", "{6E748B4C-2E82-4A79-A674-F98C0F5DFCBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xiangyan.SwaggerDoc.Api", "..\..\..\..\..\xiangyan\swaggerdoc\Xiangyan.SwaggerDoc.Api.csproj", "{60BC5469-9AFE-4236-BFF3-14E3E425FC4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E748B4C-2E82-4A79-A674-F98C0F5DFCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E748B4C-2E82-4A79-A674-F98C0F5DFCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E748B4C-2E82-4A79-A674-F98C0F5DFCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E748B4C-2E82-4A79-A674-F98C0F5DFCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BC5469-9AFE-4236-BFF3-14E3E425FC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BC5469-9AFE-4236-BFF3-14E3E425FC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BC5469-9AFE-4236-BFF3-14E3E425FC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BC5469-9AFE-4236-BFF3-14E3E425FC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

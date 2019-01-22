@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -16,6 +17,8 @@ namespace aspnetmvc.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            ViewBag.ProjectOwner = ConfigurationManager.AppSettings["ProjectOwner"];
+            ViewBag.ProjectOwnerHref = ConfigurationManager.AppSettings["ProjectOwnerHref"];
 
             return View();
         }
